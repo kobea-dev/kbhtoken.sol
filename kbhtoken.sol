@@ -210,7 +210,7 @@ contract KoreaBlackHole is BurnableToken,FreezeToken, DetailedERC20, ERC20Token,
     mapping(address => uint) locker;
     
     string  private _symbol = "KBH";
-    string  private _name = "Korea blackhole";
+    string  private _name = "Korea Blackhole";
     uint8  private _decimals = 18;
     uint256 private TOTAL_SUPPLY = 40*(10**8)*(10**uint256(_decimals));
     
