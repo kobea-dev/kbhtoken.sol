@@ -202,7 +202,7 @@ contract FreezeToken is BasicToken, Ownable {
 }
 
 
-contract KoreaBlockHole is BurnableToken,FreezeToken, DetailedERC20, ERC20Token,Pausable{
+contract KoreaBlackHole is BurnableToken,FreezeToken, DetailedERC20, ERC20Token,Pausable{
     using SafeMath for uint256;
     
     event Approval(address indexed owner, address indexed spender, uint256 value);
